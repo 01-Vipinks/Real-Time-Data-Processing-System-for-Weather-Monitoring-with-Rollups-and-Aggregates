@@ -27,12 +27,12 @@ Develop a real-time data processing system to monitor weather conditions and pro
 1. Prerequisites
 Make sure you have the following installed:
 
-&nbsp;Python 3.x
-&nbsp;Flask
-&nbsp;Flask-SQLAlchemy
-&nbsp;Requests
-&nbsp;Docker
-&nbsp;Docker Compose
+&nbsp;Python 3.x  
+&nbsp;Flask  
+&nbsp;Flask-SQLAlchemy  
+&nbsp;Requests  
+&nbsp;Docker  
+&nbsp;Docker Compose  
 
 ## Installation
 * Clone the repository: git clone https://github.com/your-username/weather-app.git
@@ -60,3 +60,9 @@ Make sure you have the following installed:
 &nbsp;The backend is built using Flask, a lightweight Python web framework. The app uses Flask-SQLAlchemy to interact with the SQLite database.
 
 ## Implementation of additional features
+1. Forecast for Next 5 Days
+Provide a 5-day weather forecast with daily summaries. The OpenWeatherMap API offers a forecast endpoint that returns weather data for every 3-hour interval. You can use this data to summarize the forecast for each day.  
+
+Implementation  
+API Request: Update your get_weather function to fetch the 5-day forecast if the forecast flag is set.  
+Backend Route: Add a new /forecast endpoint in app.py  
