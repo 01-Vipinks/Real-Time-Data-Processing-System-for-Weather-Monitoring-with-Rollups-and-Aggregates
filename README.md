@@ -63,8 +63,8 @@ Make sure you have the following installed:
 ### Forecast for Next 5 Days
 Provide a 5-day weather forecast with daily summaries. The OpenWeatherMap API offers a forecast endpoint that returns weather data for every 3-hour interval. You can use this data to summarize the forecast for each day.  
 ##### Implementation  
-API Request: Update your get_weather function to fetch the 5-day forecast if the forecast flag is set.  
-Backend Route: Add a new /forecast endpoint in app.py  
+* API Request: Update your get_weather function to fetch the 5-day forecast if the forecast flag is set.  
+* Backend Route: Add a new /forecast endpoint in app.py  
 
 ### Temperature Unit Toggle (°C/°F)  
 Allow users to toggle between Celsius and Fahrenheit.  
