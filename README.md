@@ -60,7 +60,7 @@ Make sure you have the following installed:
 &nbsp;The backend is built using Flask, a lightweight Python web framework. The app uses Flask-SQLAlchemy to interact with the SQLite database.
 
 ## Implementation of additional features
-1. Forecast for Next 5 Days
+### Forecast for Next 5 Days
 Provide a 5-day weather forecast with daily summaries. The OpenWeatherMap API offers a forecast endpoint that returns weather data for every 3-hour interval. You can use this data to summarize the forecast for each day.  
 
 Implementation  
