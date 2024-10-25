@@ -68,14 +68,24 @@ Provide a 5-day weather forecast with daily summaries. The OpenWeatherMap API of
 
 ### Temperature Unit Toggle (°C/°F)  
 Allow users to toggle between Celsius and Fahrenheit.  
-##### Implementation  
-Frontend Toggle Button: Add a button in index.html for the toggle  
-JavaScript Toggle Logic: In script.js, implement the toggle feature  
+#### Implementation  
+* Frontend Toggle Button: Add a button in index.html for the toggle  
+* JavaScript Toggle Logic: In script.js, implement the toggle feature  
 
 ### Historical Weather Data (With Graphs)  
 Use a JavaScript library like Chart.js to plot temperature trends over time for a given city.  
-##### Implementation  
-Extend Database Schema: Store temperature history for each city by adding a new table WeatherHistory  
-Log Weather Data on Each Request: After retrieving weather data, log it in WeatherHistory  
-Plot Data with Chart.js: On the frontend, use Chart.js to create a line graph of temperatures. You can fetch the historical data and populate the chart with it.  
+#### Implementation  
+* Extend Database Schema: Store temperature history for each city by adding a new table WeatherHistory  
+* Log Weather Data on Each Request: After retrieving weather data, log it in WeatherHistory  
+* Plot Data with Chart.js: On the frontend, use Chart.js to create a line graph of temperatures. You can fetch the historical data and populate the chart with it.  
 
+## Contributing  
+If you'd like to contribute to this project, please follow these steps:  
+1. Fork the repository.  
+2. Create a new branch for your feature: git checkout -b feature-name  
+3. Commit your changes: git commit -m 'Add feature'  
+4. Push to the branch: git push origin feature-name  
+5. Submit a pull request.
+
+## License  
+This project is licensed under the MIT License.  
