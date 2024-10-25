@@ -62,19 +62,19 @@ Make sure you have the following installed:
 ## Implementation of additional features
 ### Forecast for Next 5 Days
 Provide a 5-day weather forecast with daily summaries. The OpenWeatherMap API offers a forecast endpoint that returns weather data for every 3-hour interval. You can use this data to summarize the forecast for each day.  
-Implementation  
+##### Implementation  
 API Request: Update your get_weather function to fetch the 5-day forecast if the forecast flag is set.  
 Backend Route: Add a new /forecast endpoint in app.py  
 
 ### Temperature Unit Toggle (°C/°F)  
 Allow users to toggle between Celsius and Fahrenheit.  
-Implementation  
+##### Implementation  
 Frontend Toggle Button: Add a button in index.html for the toggle  
 JavaScript Toggle Logic: In script.js, implement the toggle feature  
 
 ### Historical Weather Data (With Graphs)  
 Use a JavaScript library like Chart.js to plot temperature trends over time for a given city.  
-Implementation  
+##### Implementation  
 Extend Database Schema: Store temperature history for each city by adding a new table WeatherHistory  
 Log Weather Data on Each Request: After retrieving weather data, log it in WeatherHistory  
 Plot Data with Chart.js: On the frontend, use Chart.js to create a line graph of temperatures. You can fetch the historical data and populate the chart with it.  
