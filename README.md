@@ -54,7 +54,7 @@ Make sure you have the following installed:
 &nbsp;The app uses a SQLite database to store weather data. The database is created automatically when the app is run for the first time.
 
 ## Frontend
-&nbsp;The frontend is built using HTML, CSS, and JavaScript. The app uses a simple form to allow users to enter a city name and retrieve weather&nbsp;data.
+&nbsp;The frontend is built using HTML, CSS, and JavaScript. The app uses a simple form to allow users to enter a city name and retrieve weather &nbsp;data.
 
 ## Backend
 &nbsp;The backend is built using Flask, a lightweight Python web framework. The app uses Flask-SQLAlchemy to interact with the SQLite database.
